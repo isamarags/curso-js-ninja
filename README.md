@@ -1,37 +1,38 @@
 ##Sumário
 Aqui você pode ver todo o conteúdo do curso disponível:
 
-+Variáveis e tipos de dados
-+Operadores aritméticos
-+Operadores de igualdade e relacionais
-+Funções
-+Operadores Lógicos
-+Operadores Unários
-+Estrutura Léxica
-+Instruções condicionais - IF
-+Truthy e Falsy
-+Condicional Ternário
-+Escopo de variáveis e funções
-+Retorno de funções com arrays e objetos
-+Parâmetros de Funções com arrays e objetos
-+Operador vírgula e estrutura condicional switch
-+Estrutura de repetição while
-+O operador módulo
-+Array - a propriedade length
-+Array - método "push()" e Loop "for"
-+A importância de nomear funções
-+Introdução à Functional Programming
-+Escopo de funções
-+Hoisting
-+IIFE - Immediately Invoked Function Expression
-+Wrapper Objects
-+typeof
-+Laços (Loops)
-+Saltos
-+Criação de objetos
-+Criação de objetos - Object.create
-+Métodos de objeto
-+Array - Métodos
+Variáveis e tipos de dados  
+
+Operadores aritméticos  
+
+Operadores de igualdade e relacionais  
+Funções  
+Operadores Lógicos  
+Operadores Unários  
+Estrutura Léxica  
+Instruções condicionais - IF  
+Truthy e Falsy  
+Condicional Ternário  
+Escopo de variáveis e funções  
+Retorno de funções com arrays e objetos  
+Parâmetros de Funções com arrays e objetos  
+Operador vírgula e estrutura condicional switch  
+Estrutura de repetição while  
+O operador módulo  
+Array - a propriedade length  
+Array - método "push()" e Loop "for"  
+A importância de nomear funções  
+Introdução à Functional Programming  
+Escopo de funções  
+Hoisting  
+IIFE - Immediately Invoked Function Expression  
+Wrapper Objects  
+typeof  
+Laços (Loops)  Saltos  
+Criação de objetos  
+Criação de objetos - Object.create  
+Métodos de objeto  
+Array - Métodos
 +Array - toString, concat, unshift, shift
 +slice e splice
 +forEach, every, some
