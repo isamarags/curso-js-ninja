@@ -90,4 +90,16 @@ function tresArgs(x, y, z) {
 }
   
   // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
+
+  // nenhum arg
+  console.log(tresArgs());
+ 
+  // um arg
+  console.log(tresArgs(3));
+
+  // dois args
   console.log(tresArgs(3, 2));
+
+  // tres args
+  
+  console.log(tresArgs(3, 2, 2));

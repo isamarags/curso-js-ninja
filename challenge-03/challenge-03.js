@@ -30,7 +30,11 @@ alterar o valor da propriedade `idade` dessa pessoa, somando `1` a cada vez que
 for chamado.
 */
 pessoa.fazerAniversario = function() {
+<<<<<<< HEAD
   pessoa.idade++
+=======
+  this.idade++
+>>>>>>> 423b4b16cea4bda16c7bf9ed2c798fa275aaf69d
 }
 
 /*
@@ -106,25 +110,41 @@ Agora vamos brincar um pouco com o objeto criado:
 Qual o nome completo da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
+<<<<<<< HEAD
 console.log(pessoa.nomeCompleto())
+=======
+pessoa.nomeCompleto()
+>>>>>>> 423b4b16cea4bda16c7bf9ed2c798fa275aaf69d
 
 /*
 Qual a idade da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
+<<<<<<< HEAD
 console.log(pessoa.mostrarIdade())
+=======
+pessoa.mostrarIdade()
+>>>>>>> 423b4b16cea4bda16c7bf9ed2c798fa275aaf69d
 
 /*
 Qual o peso da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
+<<<<<<< HEAD
 console.log(pessoa.mostrarPeso())
+=======
+pessoa.mostrarPeso()
+>>>>>>> 423b4b16cea4bda16c7bf9ed2c798fa275aaf69d
 
 /*
 Qual a altura da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
+<<<<<<< HEAD
 console.log(pessoa.mostrarAltura())
+=======
+pessoa.mostrarAltura()
+>>>>>>> 423b4b16cea4bda16c7bf9ed2c798fa275aaf69d
 
 /*
 Faça a `pessoa` fazer 3 aniversários.
@@ -154,7 +174,11 @@ pessoa.andar(20)
 A pessoa ainda está andando? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
+<<<<<<< HEAD
 console.log(pessoa.andando) // true
+=======
+pessoa.andando; // true
+>>>>>>> 423b4b16cea4bda16c7bf9ed2c798fa275aaf69d
 
 /*
 Se a pessoa ainda está andando, faça-a parar.
@@ -165,7 +189,11 @@ pessoa.parar()
 E agora: a pessoa ainda está andando? (Use uma instrução para responder e
 comentários inline ao lado da instrução para mostrar a resposta retornada)
 */
+<<<<<<< HEAD
 console.log(pessoa.andando) // false
+=======
+pessoa.andando; // false
+>>>>>>> 423b4b16cea4bda16c7bf9ed2c798fa275aaf69d
 
 /*
 Quantos metros a pessoa andou? (Use uma instrução para responder e comentários
@@ -195,6 +223,7 @@ correta, de acordo com os dados inseridos no objeto.
 // ?
 
 // Agora, apresente-se ;)
+<<<<<<< HEAD
 
 pessoa.apresentacao = function () {
     let sexo = 'o'
