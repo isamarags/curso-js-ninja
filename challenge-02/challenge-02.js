@@ -53,7 +53,7 @@ function nome(arg1, arg2) {
   console.log(funcaoQualquer(1, 2, 3));
   
   // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-  // ?
+  // 8
   
   /*
   Crie uma função com as seguintes características:
@@ -64,31 +64,26 @@ function nome(arg1, arg2) {
   5. Se nenhum argumento for passado, retorne o valor booleano `false`.
   6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
   */
-   /*
-  Crie uma função com as seguintes características:
-  1. A função deve receber 3 argumentos.*/
-function tresArgs(x, y, z) {
-  //2. Se somente um argumento for passado, retorne o valor do argumento.
-  if ((x !== undefined) &&  (y === undefined) && (z === undefined)) {
-    return x;
-  //  3. Se dois argumentos forem passados, retorne a soma dos dois argumentos.
-  } else if ((x !== undefined) && (y !== undefined) && (z === undefined)) {
-    return x + y;
-  //4. Se todos os argumentos forem passados, retorne a soma do primeiro com o segundo, e o resultado, dividido pelo terceiro.
-  } else if ((x !== undefined) && (y !== undefined) && (z !== undefined)) {
-    const result = x + y;
-    return result / z;
-  }
-  //5. Se nenhum argumento for passado, retorne o valor booleano `false`.
-    else if ((x == undefined) && (y == undefined) && (z == undefined)) {
+ //1. A função deve receber 3 argumentos.
+  function tresArgs(a, b, c){
+    //Se somente um argumento for passado, retorne o valor do argumento.
+    if (a !== undefined && b === undefined && c === undefined) {
+      return a;
+    //Se dois argumentos forem passados, retorne a soma dos dois argumentos.  
+    } else if (a !== undefined && b !== undefined && c === undefined) {
+      return a + b;
+    //4. Se todos os argumentos forem passados, retorne a soma do primeiro com o segundo, e o resultado, dividido pelo terceiro.
+    } else if (a !== undefined && b !== undefined && c !== undefined){
+      return (a + b) / c;
+    //Se nenhum argumento for passado, retorne o valor booleano `false`.
+    } else if (a === undefined && b === undefined && c === undefined) {
       return false;
-  }
-  //  6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
-    else{
+    //E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
+    } else {
       return null;
+    }
   }
-}
-  
+
   // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
 
   // nenhum arg
